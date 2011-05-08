@@ -1,5 +1,44 @@
 /* Here's my dope stylesheet */
 
+body {
+	font: 16px sans-serif;
+	background: #f4f7f8;
+}
+
+a {
+	color: #872730;
+	-webkit-transition: all .5s ease-in-out;
+}
+
+a:hover {
+	color: #4758bc;
+}
+
 h1 {
-	font-size: 2em;
+	font-size: 1.3em;
+}
+
+img {
+	width: 746px; height: 94px;
+	margin: 20px auto;
+	display: block;
+}
+
+nav {
+	width: 240px;
+	margin: 20px auto;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+section {
+	width: 700px;
+	background: #fff;
+	border: 2px solid #b8bbbc;
+	margin: 20px auto;
+	border-radius: 10px;
+	padding: 10px;
 }
